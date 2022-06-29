@@ -10,7 +10,7 @@
 
 3. Quais são os 2 principais métodos do http Qual é a diferença entre eles?
 
-	GET e POST. A diferença é que o método Post oferece uma maior segurança em relação aos dados transferidos, ao contrário do método GET que os dados são anexados a URL, ficando visíveis ao usuário
+	GET e POST. A diferença é que o método Post oferece uma maior segurança em relação aos dados transferidos, ao contrário do método GET que os dados são anexados a URL, ficando visíveis ao usuário.
 
 4. O que são requisições HTTP? Quais os tipos?
 
@@ -19,21 +19,20 @@
 
 5. Como funciona uma requisição?
 
-	Suas linhas iniciais contêm três elementos:
-	1 - Um método HTTP, um verbo (como GET, PUT ou POST) ou um nome (como HEAD ou OPTIONS), que descrevem a ação a ser executada. Por exemplo, GET indica que um recurso deve ser obtido ou POST significa que dados são inseridos no servidor (criando ou modificando um recurso, ou gerando um documento temporário para mandar de volta).
-	2 - O alvo da requisição, normalmente um URL, ou o caminho absoluto do protocolo, porta e domínio são em geral caracterizados pelo contexto da requisição. O formato deste alvo varia conforme o método HTTP. 
-	3 - A  versão HTTP, que define a estrutura do restante da mensagem, atuando como um indicador da versão esperada para uso na resposta.
+	É um pedido que o cliente realiza a determinado servidor. Dentro desse pedido existe uma série de dados que são usados para descrever o que o cliente está solicitando. Esses dados também são baseados no que o cliente envia para o servidor (Ex.: Formulários). Dividir em 3 partes, request Line, head e body, mas apenas a request Line é obrigatória.
+
 
 6. O que é o método GET?
-	O método GET cria uma seqüência de consulta(query string) e a acrescenta à URL do script no servidor que manipula a solicitação. Solicita a representação de um recurso específico.
+	
+	Essa é a requisição mais comum de todas. Através dessa requisição nós pedimos a representação de um recurso: que pode ser um arquivo html, xml, json, etc. O método GET cria uma seqüência de consulta(query string) e a acrescenta à URL do script no servidor que manipula a solicitação. Solicita a representação de um recurso específico.
 
 7. Qual é o protocolo de internet para transferência segura, com uso de certificado digital, utilizado em sites de compras eletrônicas?
 
-HTTPS
+	HTTPS significa HyperText Transfer Protocol Secure (Protocolo de Transferência de Hipertexto Seguro) e é usado para criptografia e autenticação de comunicação entre o servidor web e o navegador
 
 8. Quais os principais métodos de uma requisição REST?
 
-	São os métodos HTTP
+	São os métodos HTTP. GET, POST, PUT, DELETE, que podem ser requisitadas de forma diferente.
 
 9. Qual a diferença entre IPv4 e IPv6?
 
