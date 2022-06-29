@@ -1,0 +1,59 @@
+1. O que são métodos http?
+	O protocolo HTTP define oito métodos (GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS e CONNECT) que indicam a ação a ser realizada no recurso especificado. O método determina o que o servidor deve fazer com o URL fornecido no momento da requisição de um recurso. Um servidor HTTP deve implementar ao menos os métodos GET e HEAD. Os métodos GET e POST são os que aparecem mais comumente durante o desenvolvimento web.
+
+2. Quais são os métodos HTTP mais utilizados atualmente?
+	GET - Essa é a requisição mais comum de todas. Através dessa requisição nós pedimos a representação de um recurso: que pode ser um arquivo html, xml, json, etc.
+	POST - O método POST é utilizado quando queremos criar um recurso. Quando usamos POST, os dados vão no corpo da requisição e não na URI.
+	PUT - Requisita que um recurso seja "guardado" na URI fornecida. Se o recurso já existir, ele deve ser atualizado. Se não existir, pode ser criado.
+	DELETE - Exclui o recurso especificado.
+
+
+3. Quais são os 2 principais métodos do http Qual é a diferença entre eles?
+
+	GET e POST. A diferença é que o método Post oferece uma maior segurança em relação aos dados transferidos, ao contrário do método GET que os dados são anexados a URL, ficando visíveis ao usuário
+
+4. O que são requisições HTTP? Quais os tipos?
+
+	Requisições HTTP são mensagens enviadas pelo cliente para iniciar uma ação no servidor. São do tipo GET, POST, HEAD, OPTIONS, PUT, DELETE e TRACE.
+
+
+5. Como funciona uma requisição?
+
+	Suas linhas iniciais contêm três elementos:
+	1 - Um método HTTP, um verbo (como GET, PUT ou POST) ou um nome (como HEAD ou OPTIONS), que descrevem a ação a ser executada. Por exemplo, GET indica que um recurso deve ser obtido ou POST significa que dados são inseridos no servidor (criando ou modificando um recurso, ou gerando um documento temporário para mandar de volta).
+	2 - O alvo da requisição, normalmente um URL, ou o caminho absoluto do protocolo, porta e domínio são em geral caracterizados pelo contexto da requisição. O formato deste alvo varia conforme o método HTTP. 
+	3 - A  versão HTTP, que define a estrutura do restante da mensagem, atuando como um indicador da versão esperada para uso na resposta.
+
+6. O que é o método GET?
+	O método GET cria uma seqüência de consulta(query string) e a acrescenta à URL do script no servidor que manipula a solicitação. Solicita a representação de um recurso específico.
+
+7. Qual é o protocolo de internet para transferência segura, com uso de certificado digital, utilizado em sites de compras eletrônicas?
+
+HTTPS
+
+8. Quais os principais métodos de uma requisição REST?
+
+	São os métodos HTTP
+
+9. Qual a diferença entre IPv4 e IPv6?
+
+	O Protocolo de Internet versão 4 (IPv4) é a primeira e mais conhecida versão do protocolo de internet. Ele depende da abordagem de entrega de melhor esforço, o que não garante a entrega dos dados nem a qualidade do serviço. Isso significa que os usuários podem enfrentar atrasos ou outros problemas dependendo de quanto tráfego tiver na internet.O IPv4 também é um protocolo sem conexão, que transmite os pacotes de dados sem garantir se o dispositivo destinatário está pronto. A vantagem desse tipo de protocolo é que ele ainda pode enviar pacotes através de caminhos alternativos no caso de congestão da rede ou de falhas no roteamento.
+
+	O Protocolo de Internet versão 6 (IPv6) é a versão mais nova do IP, também referida como Internet Protocol Next Generation (IPng). Ele funciona de maneira similar ao Protocolo de Internet versão 4 (IPv4), oferecendo endereços únicos para todos os dispositivos conectados à internet. Contudo, ao contrário do IPv4, o IPv6 usa um endereço de 128-bis — em contraste com o formato de 32-bits. Um espaço de endereçamento de 128-bits oferece cerca de 340 undecilhões de endereços, ou 1.028 vezes mais endereços do que o IPv4.
+
+10. Faça um resumo sobre os seguintes protocolos: http, tcp, ip, udu, smtp e ftp.
+
+- http: O Hypertext Transfer Protocol, sigla HTTP é um protocolo de comunicação utilizado para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a base para a comunicação de dados da World Wide Web. Hipertexto é o texto estruturado que utiliza ligações lógicas entre nós contendo texto. 
+
+- tcp:OTCP(acrônimopara oinglêsTransmissionControlProtocol, que significa "Protocolo de controle de transmissão") é um dos protocolossob os quais assenta o núcleo daInternet. A versatilidade e robustez deste protocolo tornou-o adequado a redes globais, já que este verifica se os dados são enviados de forma correta, na sequência apropriada e sem erros, pelarede
+
+- ip:Endereço IP, de forma genérica, é uma identificação de um dispositivo (computador, impressora, etc) em umarede localoupública. Cada computador na internet possui um IP (Internet ProtocolouProtocolo de internet) único, que é o meio em que as máquinas usam para se comunicarem na Internet.
+
+- udu: OUserDatagramProtocol(UDP) é umprotocolosimples dacamada de transporte.O protocolo UDP não é confiável. Caso garantias sejam necessárias, é preciso implementar uma série de estruturas de controle, tais como timeouts, retransmissões,acknowlegments, controle de fluxo, etcTambém dizemos que o UDP é um serviço sem conexão, pois não há necessidade de manter um relacionamento longo entre cliente e o servidor.
+
+- smtp: "Protocolo de transferência de correio simples“ (ou em inglês Simple Mail Transfer Protocol)é o protocolopadrão para envio dee-mailsatravés daInternet. É um protocolo relativamente simples, baseado em texto simples, onde um ou vários destinatários de uma mensagem são especificados (e, na maioria dos casos, validados) sendo, depois, a mensagem transferida. Para testar um servidor SMTP, com relativa facilidade, pode-se utilizar o protocolotelnet.
+
+- ftp: aplicativo FTP foi um dos primeiros aplicativos desenvolvidos para uso no que hoje chamamos de internet. Surgiu para permitir a troca de arquivos entre computadores ligados em rede. O protocolo FTP suporta este aplicativo. O protocolo FTP permite a troca de arquivos nos formatos ASCII e binário.
+
+
+
